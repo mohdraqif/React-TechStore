@@ -8,17 +8,17 @@ export default function Footer() {
       {value => {
         return (
           <FooterWrapper>
-            <div className="container py-3">
+            <div className="container py-4">
               <div className="row">
-                <div className="col-md-6">
-                  <p className="text-capitalize">
+                <div className="col-md-6 px-5">
+                  <p className="text-capitalize mt-4">
                     copyright &copy; tech store {new Date().getFullYear()}. all
                     rights reserved{" "}
                   </p>
                 </div>
-                <div className="col-md-6 d-flex justify-content-around">
+                <div className="col-md-6 pl-5 justify-content-around mt-4">
                   {value.socialIcons.map(item => (
-                    <a href={item.url} key={item.id}>
+                    <a href={item.url} key={item.id} className='m-3'>
                       {item.icon}
                     </a>
                   ))}

@@ -45,3 +45,13 @@ body {
 .cart-icon {
   cursor: pointer;
 }
+
+.footer-text {
+  padding: 15px;
+  margin: 15px;
+}
+
+.footer-links {
+  padding: 20px;
+  margin: 25px;
+}
