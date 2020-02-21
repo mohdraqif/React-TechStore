@@ -7,13 +7,13 @@ import Contact from "./pages/ContactPage";
 import SingleProduct from "./pages/SingleProductPage";
 import Cart from "./pages/CartPage.js";
 import Default from "./pages/Default.js";
-
 import { Route, Switch } from "react-router-dom";
-
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import SideCart from "./components/SideCart";
 import Footer from "./components/Footer";
+
+
 class App extends Component {
   render() {
     return (

@@ -272,7 +272,7 @@ class ProductProvider extends Component {
         if (tempSearch === tempTitle) {
           return item;
         }
-        return true;
+        return true
       });
     }
     this.setState({
