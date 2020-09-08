@@ -7,7 +7,7 @@ In the project directory, you can run:
 ### `npm start`z
 
 
-From version 1.0
+From version 2.0
 
 
 Runs the app in the development mode.<br />
