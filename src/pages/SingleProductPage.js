@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
-import singleProductImg from "../images/singleProductBcg.jpeg";
+// import singleProductImg from "../images/singleProductBcg.jpeg";
+import daily from "../images/gionnhxcpida1ufcftux.jpg";
 import { ProductConsumer } from "../context";
 export default function SingleProductPage() {
   return (
     <>
-      <Hero img={singleProductImg} title="single product" />
+      <Hero img={daily} title="single product" />
       <ProductConsumer>
         {value => {
           const { singleProduct, addToCart, loading } = value;

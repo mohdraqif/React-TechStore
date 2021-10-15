@@ -30,11 +30,11 @@ export const socialData = [
   {
     id: 8,
     icon: <FaGithub className="icon" />,
-    url: "https://github.com/mohdraqif"
+    url: "https://github.com/faizbeg1"
   },
   {
     id: 6,
     icon: <FaReddit className="icon" />,
-    url: "https://github.com/mohdraqif"
+    url: "https://github.com/faizbeg1"
   },
 ];

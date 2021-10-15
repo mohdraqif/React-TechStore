@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import mainBcg from "../images/mainBcg.jpeg";
-
+// import mainBcg from "../images/mainBcg.jpeg";
+import p03gg1lc from "../images/p03gg1lc.jpg";
 export default function Hero({ img, title, max, children }) {
   return (
     <HeroWrapper max={max} img={img}>
       <div className="banner">
-        <h1 className="title">{title}</h1>
+        <h1 className="title">BOOKS</h1>
         {children}
       </div>
     </HeroWrapper>
@@ -32,5 +32,5 @@ const HeroWrapper = styled.div`
 `;
 
 Hero.defaultProps = {
-  img: mainBcg
+  img: p03gg1lc
 };
